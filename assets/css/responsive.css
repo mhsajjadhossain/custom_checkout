@@ -321,4 +321,81 @@
         font-size: 19px;
         background: #3ea03b;
     }
+
+
+    /* exit popup */
+    .exit_popup {
+        width: 92%;
+        padding: 22px;
+    }
+
+    .exit_popup h3 {
+        color: #fff;
+        font-size: 40px;
+    }
+
+    .exit_popup h4 {
+        font-size: 15px;
+    }
+
+    .couponCode {
+        font-size: 46px;
+    }
+
+    .exit_popup img {
+        margin-top: 6px;
+        width: 32%;
+    }
+
+    /* notification */
+    @keyframes nFadeIn {
+        from {
+            opacity: 0;
+            transform: translate3d(-100%, 112%, 0);
+            -webkit-transform: translate3d(-100%, 112%, 0);
+            -moz-transform: translate3d(-100%, 112%, 0);
+            -ms-transform: translate3d(-100%, 112%, 0);
+            -o-transform: translate3d(-100%, 112%, 0);
+        }
+
+        to {
+            opacity: 1;
+            transform: translate3d(0%, 112%, 0);
+            -webkit-transform: translate3d(0%, 112%, 0);
+            -moz-transform: translate3d(0%, 112%, 0);
+            -ms-transform: translate3d(0%, 112%, 0);
+            -o-transform: translate3d(0%, 112%, 0);
+        }
+    }
+
+    @keyframes nFadeOut {
+        from {
+            opacity: 1;
+            transform: translate3d(0%, 112%, 0);
+            -webkit-transform: translate3d(0%, 112%, 0);
+            -moz-transform: translate3d(0%, 112%, 0);
+            -ms-transform: translate3d(0%, 112%, 0);
+            -o-transform: translate3d(0%, 112%, 0);
+        }
+
+        to {
+            opacity: 0;
+            bottom: 0;
+            transform: translate3d(-100%, 112%, 0);
+            -webkit-transform: translate3d(-100%, 112%, 0);
+            -moz-transform: translate3d(-100%, 112%, 0);
+            -ms-transform: translate3d(-100%, 112%, 0);
+            -o-transform: translate3d(-100%, 112%, 0);
+        }
+    }
+
+    #someone-purchased {
+        width: 94%;
+    }
+    div#someone-purchased span {
+        font-size: 12px;
+    }
+    #someone-purchased b {
+        font-size: 13px;
+    }
 }

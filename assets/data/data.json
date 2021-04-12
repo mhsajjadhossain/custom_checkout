@@ -1,0 +1,22 @@
+[
+    {
+        "ProductName": "Scalp 6 Month Subscription",
+        "subTitle":"Someone in Ontario, Canada purchased a",
+        "image":"assets/images/scalp-6.png"
+    },
+    {
+        "ProductName": "Scalp 12 Month Subscription",
+        "subTitle":"Someone in Mexico City, Mexico purchased:",
+        "image":"assets/images/scalp-12.png"
+    },
+    {
+        "ProductName": "Forex 12 Month Subscription",
+        "subTitle":"Someone in Tokyo, Japan purchased:",
+        "image":"assets/images/forex-12.png"
+    },
+    {
+        "ProductName": "Forex 6 Month Subscription",
+        "subTitle":"Someone in Rome, Italy purchased:",
+        "image":"assets/images/forex-6.png"
+    }
+]
