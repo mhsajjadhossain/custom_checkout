@@ -526,29 +526,7 @@ div#someone-purchased span {
     font-size:10px;
     margin-bottom:8px;
 }
-@media screen and (max-width:767px) {
-    #someone-purchased {
-        bottom: 0 !important;
-        left: 0 !important;
-        top:auto !important;
-        width:100%;
-        box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        max-width:auto !important;
-    }
-    #someone-purchased img {
-        max-width: 20%;
-        max-height:auto;
-    }
-    #someone-purchased p {
-        font-size:11px;
-        width:70%;
-    }
-    #someone-purchased p a {
-        font-size:13px;
-    }
-}
+
 @keyframes nFadeIn {
     from {
         opacity: 0;
@@ -582,45 +560,7 @@ div#someone-purchased span {
     animation-duration: 1s;
     animation-fill-mode: both;
 }
-@media screen and (max-width:767px) {
-    @keyframes nFadeIn {
-        from {
-            opacity: 0;
-            transform: translate3d(-100%, 112%, 0);
-            -webkit-transform: translate3d(-100%, 112%, 0);
-            -moz-transform: translate3d(-100%, 112%, 0);
-            -ms-transform: translate3d(-100%, 112%, 0);
-            -o-transform: translate3d(-100%, 112%, 0);
-}
-        to {
-            opacity: 1;
-            transform: translate3d(0%, 112%, 0);
-            -webkit-transform: translate3d(0%, 112%, 0);
-            -moz-transform: translate3d(0%, 112%, 0);
-            -ms-transform: translate3d(0%, 112%, 0);
-            -o-transform: translate3d(0%, 112%, 0);
-}
-    }
-    @keyframes nFadeOut {
-        from {
-            opacity: 1;
-            transform: translate3d(0%, 112%, 0);
-            -webkit-transform: translate3d(0%, 112%, 0);
-            -moz-transform: translate3d(0%, 112%, 0);
-            -ms-transform: translate3d(0%, 112%, 0);
-            -o-transform: translate3d(0%, 112%, 0);
-        }
-        to {
-            opacity: 0;
-            bottom:0        ;
-            transform: translate3d(-100%, 112%, 0);
-            -webkit-transform: translate3d(-100%, 112%, 0);
-            -moz-transform: translate3d(-100%, 112%, 0);
-            -ms-transform: translate3d(-100%, 112%, 0);
-            -o-transform: translate3d(-100%, 112%, 0);
-}
-    }
-}
+
 .NcloseIcon{
     position: absolute;
     left: 98%;

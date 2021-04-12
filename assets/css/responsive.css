@@ -389,13 +389,32 @@
         }
     }
 
-    #someone-purchased {
-        width: 94%;
-    }
+    
     div#someone-purchased span {
         font-size: 12px;
     }
     #someone-purchased b {
         font-size: 13px;
+    }
+    #someone-purchased {
+        bottom: 156px !important;
+        left: 0 !important;
+        top: auto !important;
+        width: 94%;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        max-width: auto !important;
+    }
+    #someone-purchased img {
+        max-width: 20%;
+        max-height:auto;
+    }
+    #someone-purchased p {
+        font-size:11px;
+        width:70%;
+    }
+    #someone-purchased p a {
+        font-size:13px;
     }
 }
